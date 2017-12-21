@@ -56,3 +56,43 @@ body {
   text-align: center;
   font-weight: bold;
 }
+
+/*ACCESIBILLITY*/
+.image-icon {
+  padding: 10% 0% 5% 8%;
+}
+
+.text{
+  padding: 4% 0% 5% 4%;
+}
+
+.title-text {
+  margin-top: 3.5%;
+  font-weight: bold;
+}
+
+.text-access {
+  font-size:120%;
+}
+
+
+/*SECTION WHY*/
+.why  {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.container-why {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.central-title {
+  font-weight: bold;
+  margin-top: 5%;
+}
+
+.title-why {
+  font-weight: bold;
+}
