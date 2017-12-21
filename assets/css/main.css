@@ -3,9 +3,30 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/*TAMAÑOS*/
+.medium {
+  font-size: 155%;
+}
+
+.large {
+  font-size: 200%;
+}
+
+
+
 /*LOG IN MODAL*/
+.modal-header {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
 .close {
   font-size: 250%;
+}
+
+.modal-body{
+  margin-top: 5%;
 }
 
 .input-group {
