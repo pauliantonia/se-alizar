@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*header {
+  background-color: grey;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.lenguage-container {
+  display: inline-block;
+  text-align: right;
+  padding-right: 5%;
+  font-size: 80%;
+}
+
+.lenguage {
+  margin: 0% 0.5% 0% 0.5%;
+  display: inline-block;
+}
+
+.navigation {
+  text-align: right;
+  padding-right: 4%;
+}
+
+.nav,
+.nav-inicio {
+  margin: 0% 3% 0% 3%;
+}
+
+.nav-inicio {
+  color: #f2b886;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #f2b886;
+}
