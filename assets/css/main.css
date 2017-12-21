@@ -3,6 +3,18 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/*header,
+.modal fade {
+  position: fixed;
+  z-index: 1;
+  width: 100%;*/
+}
+
+.principal-title{
+  color: white;
+  margin: 5% 0% 0% 5%;
+}
+
 /*NAV*/
 /*TAMAÑOS*/
 .navbar-inverse {
@@ -19,7 +31,7 @@ body {
 }
 
 /*LOG IN MODAL*/
-.modal-header {
+#modal-header {
   text-align: center;
   width: 90%;
   margin-left: 5%;
@@ -33,7 +45,7 @@ body {
   margin-top: 5%;
 }
 
-.input-group {
+#input-group {
   margin: 2% 0% 2% 8%;
 }
 
@@ -46,7 +58,8 @@ body {
 .homepage {
   background-image: url("../images/image4.jpeg");
   background-size: cover;
-  width: 100%;
+  /*width: 100%;
+  padding-top: 12%;*/
 }
 
 .title {
@@ -79,7 +92,7 @@ body {
 /*SECTION WHY*/
 .why  {
   text-align: center;
-  background-color: black;
+  background-color: #222222;
   color: white;
 }
 
@@ -95,4 +108,60 @@ body {
 
 .title-why {
   font-weight: bold;
+}
+
+/*DETAILS*/
+.details{
+  padding: 5%;
+}
+
+.container-details{
+  text-align: justify;
+}
+
+.title-details{
+  font-weight: bold;
+}
+
+.text-details {
+  font-size: 120%;
+}
+
+.img-details {
+  margin:6%;
+  width: 60%;
+}
+
+#btn-validate {
+  margin-left: 40%;
+  font-size: 120%;
+}
+
+#input-details {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.text-input-details {
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #222222;
+  color: white;
+}
+
+.info {
+  padding-top: 5%;
+}
+
+.contact {
+  padding-top: 2%;
+}
+
+.final  {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 80%;
 }

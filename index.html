@@ -13,49 +13,55 @@
             <div class="container-fluid">            
                 <!-- IDIOMAS -->
               <div class="row">
-                <div class="col-md-12">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tamaño<span class="caret"></span></a>
-                          <ul class="dropdown-menu">
-                            <li><a href="#">Mediano</a></li>
-                            <li class="medium"><a href="#">Grande</a></li>
-                            <li class="large"><a href="#">Extra Grande</a></li>
-                          </ul>
-                        </li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idiomas<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Español</a></li>
-                              <li><a href="#">Portugés</a></li>
-                              <li><a href="#">Inglés</a></li>
-                              <li><a href="#">Creol</a></li>
-                            </ul>
-                          </li>
-                      </ul>
-                </div>
-              </div>
-              <!--NAV-->
-              <div class="row">
                 <div class="col-md-6">
-                    <h1>SEÑALIZAR</h1>
+                  <h1 class="principal-title">S E Ñ A L I Z A R</h1>
                 </div>
                 <div class="col-md-6">
-                      <ul class="nav navbar-nav navbar-right">
-                          <li><a href="#">Inicio</a></li>
-                          <li><a href="#">Validación</a></li>
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">Nosotros</a></li>
-                          <li><a href="#" data-toggle="modal" data-target="#exampleModal">Iniciar Sesión</a></li>
-                      </ul>
-                </div>                   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tamaño<span class="caret"></span></a>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Mediano</a></li>
+                                    <li class="medium"><a href="#">Grande</a></li>
+                                    <li class="large"><a href="#">Extra Grande</a></li>
+                                  </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idiomas<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="#">Español</a></li>
+                                      <li><a href="#">Portugés</a></li>
+                                      <li><a href="#">Inglés</a></li>
+                                      <li><a href="#">Creol</a></li>
+                                    </ul>
+                                  </li>
+                              </ul>
+                        </div>
+                      </div>
+                      <!--NAV-->
+                      <div class="row">
+                        <div class="col-md-12">
+                              <ul class="nav navbar-nav navbar-right">
+                                  <li><a href="#">Inicio</a></li>
+                                  <li><a href="#">Validación</a></li>
+                                  <li><a href="#">Blog</a></li>
+                                  <li><a href="#">Nosotros</a></li>
+                                  <li><a href="#" data-toggle="modal" data-target="#exampleModal">Iniciar Sesión</a></li>
+                              </ul>
+                        </div>                   
+                      </div>
+                </div>
+
               </div>
+              
               <!-- LOG IN MODAL -->
               <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <div class="row">
-                        <div class="modal-header">
+                        <div class="modal-header" id="modal-header">
                           <div class="col-md-6">
                               <h3 class="modal-title" id="exampleModalLabel">Inicia Sesión</h3>
                           </div>
@@ -68,13 +74,13 @@
                       </div>
                       <div class="modal-body">
                         <div class="row modal-inputs">
-                            <div class=" col-md-10 input-group">
+                            <div class=" col-md-10 input-group" id="input-group">
                                 <span class="input-group-addon" id="basic-addon1">Usuario</span>
                                 <input type="text" class="form-control" placeholder="Nombre de usuario o email" aria-describedby="basic-addon1">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-10 input-group">
+                            <div class="col-md-10 input-group" id="input-group">
                                 <span class="input-group-addon" id="basic-addon1">Contraseña</span>
                                 <input type="text" class="form-control" placeholder="Ingrese su contraseña" aria-describedby="basic-addon1">
                             </div>
@@ -139,15 +145,15 @@
         </div>
         <div class="row container-why">
           <div class="col-md-4">            
-            <img src="assets/images/image6.png" alt="">
+            <img src="assets/images/image6.png" alt="ilustración de pizarra con un gráfico en aumento">
             <h4 class="title-why">Mejora tu posicionamiento SEO</h4>
           </div>
           <div class="col-md-4">           
-            <img src="assets/images/image7.png" alt="">
+            <img src="assets/images/image7.png" alt="ilustración de icono de usuarios">
             <h4 class="title-why">Incrementa tu número de clientes/usuarios y mejora su calidad de vida</h4>
           </div>
           <div class="col-md-4">
-            <img src="assets/images/image8.png" alt="">
+            <img src="assets/images/image8.png" alt="ilustración de icono de una pantalla de computador, y una lista de cosas por hacer tachadas por tickets">
             <h4 class="title-why">Mejora la usabilidad de tu sitio</h4>
           </div>
         </div>
@@ -158,14 +164,87 @@
     <section class="details">
       <div class="container">
         <div class="row">
-          <div>
-
+          <div class="col-md-8 container-details">
+            <h3 class="title-details">Validación</h3>
+            <p class="text-details">Validador HTML, es decir, en nuestra página las empresas podrán
+                conocer que tan accesible es la página de acuerdo a los estándares
+                internacionales de accesibilidad. Esto se trata de que cualquiera que tenga una
+                página web y quisiera saber si es accesible simplemente escribe su URL, nos da
+                su correo y le diremos que porcentaje NO lo es y qué porcentaje SI es accesible
+                y qué porcentaje debe ser realizado manualmente.</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-details" src="assets/images/image9.png" alt="ilustración simple de un navegador web con codigo dentro de él">
           </div>
 
         </div>
-
+        <div class="row">
+          <div class="col-md-12">
+              <button type="button" class="btn btn-primary" id="btn-validate" data-toggle="modal" data-target=".bd-example-modal-lg">Válida tu página aquí</button>
+              
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                      <div class="row modal-header">
+                          <h3 class="col-md-11 modal-title">Valida tu página</h3>
+                          <button type="button" class="col-md-1 close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-addon" id="sizing-addon1">URL</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+                            </div>
+                            <div class="input-group input-group-lg" id="input-details">
+                                <span class="input-group-addon" id="sizing-addon1">Correo</span>
+                                <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+                              </div>
+                              <p class="text-input-details">Elaboramos para apoyarte una herramienta que evalúa la accesibilidad de la página de inicio de tu portal de manera automática.</p>
+                              <p class="text-input-details">Sabemos que los requerimientos de las Pautas de Accesibilidad al Contenido de Internet (WCAG 2.0) son complejos y muchos de estos requerimientos deben ser evaluados por un experto. Nuestra herramienta te indicará el porcentaje accesible de tu portal, el porcentaje no accesible y el porcentaje de requerimientos que deberán ser evaluados por un experto. Analizamos la accesibilidad en un nivel A, si requieres de una auditoría completa contactanos a <a href="#">señalizar@señalizar.cl</a></p>
+                           
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary">Validar</button>
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </section>}
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-10 info">
+                  <p>Mapa del sitio</p>
+                  <p>Manifiesto</p>
+                  <p>Política de privacidad</p>
+                </div>
+                <div class="col-md-2 contact">
+                  <h3>Contáctanos</h3>
+                  <p>+56966906569</p>
+                  <p>+56975367312</p>
+                  <p>señalizar@señalizar.cl</p>
+                  <p>Santiago, Chile</p>
+                </div>
+            </div>              
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <p class="final">Señalizar 2017</p> 
+            </div>
+          </div>
+      </div>
+      
+
+
+    </footer>
 
     
 
